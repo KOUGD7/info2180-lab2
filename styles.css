@@ -1,0 +1,128 @@
+header {
+	background-color: #63B3ED;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+}
+
+header p{
+	color: #FFFFFF;
+	margin-top: 0px;
+}
+
+h1{
+	font-size:  36px;
+	font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+article h2{
+	font-size: 32px;
+	color: #48BB78;
+}
+
+section h3{
+	 color: #48BB78;
+}
+
+
+a{
+	color: #4299E1;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+p{
+	font-size: 18px;
+	color: #2D3748;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+article{
+	clear: both;
+}
+
+footer{
+	clear: both;
+	background-color: #2C5282;
+}
+
+footer p{
+	color: white;
+	margin-left: 100px;
+}
+
+main {
+	margin-left: 150px;
+}
+
+aside {
+
+	margin-right: 150px;
+}
+
+li{
+	list-style-type:none;
+}
+.profile-pic {
+	border-radius: 50%;
+	width: 250px;
+	height: auto;
+}
+
+.blog-pic {
+	float: left;
+	width: 	auto;
+	height: 150px;
+	margin: 20px;
+}
+
+#blogpic1 {
+	float: right;
+}
+
+.blogdate p{
+	color: #718096;
+}
+
+#about {
+	background-color: #E2E8F0;
+	padding: 20px;
+}
+
+#about h3{
+	color: #000000;
+	font-family: Georgia,'Times New Roman', Times, serif;
+ 	
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 500px 1fr 60px;
+  grid-gap: 100px;
+}
+
+#box1 {
+ grid-column: 1 / 3;
+ grid-row: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+#box2 {
+ grid-column: 1;
+ grid-row: 2;
+}
+
+#box3 {
+ grid-column: 2;
+ grid-row: 2;
+}
+
+#box4 {
+ grid-column: 1 / 3;
+ grid-row: 3;
+}
